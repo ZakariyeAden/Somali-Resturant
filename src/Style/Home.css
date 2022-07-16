@@ -1,0 +1,47 @@
+
+.hero-section{
+  height: 100vh;
+  background-image: url('../Assets/halal.jpg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading{
+  color: #e67700;
+  font-size: 4rem;
+}
+.subheading{
+  color: #fff;
+  font-size: 2rem;
+  font-family: 'Lobster', cursive;
+}
+.dflex{
+  display: flex;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.btn {
+  background-color: #e67700;
+  padding: 1.3rem 3rem;
+  color: #fff;
+  border-radius: 2rem;
+}
+.btn:hover{
+  background-color: #f08c00;
+}
+.btn-secondary:hover{
+  background-color: #e67700;
+  color: #fff;
+}
+.btn-secondary{
+  background-color: #fff;
+  color: #e67700;
+}
+link{
+  cursor: pointer;
+}
