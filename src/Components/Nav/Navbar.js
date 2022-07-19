@@ -7,7 +7,9 @@ function Navbar() {
   return (
     <header>
       <nav className="navbar">
-        <img src={logo} className="logo"/>
+        <div className="align">
+          <img src={logo} className="logo"/>
+        </div>
         <ul className={isMobile ? "nav-links-mobile" : "links"} onClick={() => setIsMobile(false)}>
           <Link to="/" className="home">Home</Link>
           <Link to="/about" className="about">About</Link>

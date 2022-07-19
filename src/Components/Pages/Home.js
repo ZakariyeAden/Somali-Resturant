@@ -37,7 +37,7 @@ function Home() {
                 Our <br />
                 Flavors
               </h3>
-              <p>
+              <p className="text-align">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 <br /> Explicabo esse accusantium libero laborum aperiam ad
                 minima officiis placeat

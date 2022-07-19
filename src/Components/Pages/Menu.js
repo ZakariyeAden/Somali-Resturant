@@ -20,7 +20,7 @@ function Menu() {
     <section>
       <Parallax bgImage={Halal}>
         <div style={{ height: 500 }}>
-          <div style={insideStyles} className="menu-heading">
+          <div style={insideStyles} className="heading-primary">
             Menu
           </div>
         </div>
