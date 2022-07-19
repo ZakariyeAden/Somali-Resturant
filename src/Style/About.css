@@ -1,0 +1,29 @@
+.about-us{
+  background-size: cover;
+  background-position: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+.company-name{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+.about-story{
+  padding: 4rem 0;
+}
+.description-,.place-heading,.family{
+  text-align: center;
+}
+.family{
+  font-family: 'Lobster', cursive;
+}
+.place-heading{
+  color: #f08c00;
+  font-size: 2rem;
+  font-weight: 700;
+}
