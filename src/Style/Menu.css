@@ -1,0 +1,46 @@
+.menu-heading{
+  font-size: 4rem;
+  color: #fff;
+  font-weight: 900;
+}
+.menu-selection{
+  font-size: 1.3rem;
+  display: block;
+  color: #e67700;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 1rem;
+}
+.menu-item p{
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.star{
+  color: #ffd43b;
+  font-size: 2rem;
+}
+.row{
+  margin: 0 auto;
+}
+.price{
+  margin-left: 2rem;
+  font-style: italic;
+  color: #000;
+}
+.text-align{
+  text-align: center; 
+}
+.menu-option{
+  color: #000;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
