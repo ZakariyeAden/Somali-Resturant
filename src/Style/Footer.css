@@ -1,0 +1,32 @@
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+footer{
+  padding: 8rem 0 3rem;
+  background-color: #f08c00;
+  -webkit-box-shadow: 0px -4px 3px rgba(17, 12, 46, 0.15);
+  -moz-box-shadow: 0px -4px 3px rgba(17, 12, 46, 0.15);
+  box-shadow: 0px -4px 3px rgba(17, 12, 46, 0.15);
+}
+footer h3{
+  color: #000;
+  font-size: 1.4rem;
+}
+.company{
+  text-align: center;
+  margin-top: 4rem;
+}
+.address{
+  font-style: italic;
+}
+.contact a{
+  border-bottom: 1px solid #000;
+  color: #000;
+
+}
