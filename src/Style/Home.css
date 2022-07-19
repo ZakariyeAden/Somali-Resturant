@@ -1,11 +1,6 @@
 
 .hero-section{
   height: 100vh;
-  background-image: url('../Assets/halal.jpg');
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,10 +13,13 @@
 .subheading{
   color: #fff;
   font-size: 2rem;
+  text-align: center;
+  margin-left: 10rem;
   font-family: 'Lobster', cursive;
 }
 .dflex{
   display: flex;
+  justify-content: center;
   margin-top: 2rem;
   gap: 2rem;
 }
@@ -30,6 +28,7 @@
   padding: 1.3rem 3rem;
   color: #fff;
   border-radius: 2rem;
+  
 }
 .btn:hover{
   background-color: #f08c00;
@@ -42,6 +41,106 @@
   background-color: #fff;
   color: #e67700;
 }
-link{
+
+.grid2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.img{
+  width: 100%;
+}
+.textbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.meal-heading {
+  color: #f08c00;
+  font-size: 3rem;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+}
+.btn-outline{
+  background-color: #fff;
+  color: #f08c00;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  border: 2px solid #f08c00;
   cursor: pointer;
+  margin-top: 1rem;
+}
+.btn-outline:hover{
+  background-color: #e67700;
+  color: #fff;
+  transition: all 2s;
+}
+.desert-section{
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.desert-heading{
+  font-size: 5rem;
+  font-style: italic;
+  font-weight: 900;
+  
+}
+.desert-subheading{
+  font-size: 1rem;
+}
+.desert-heading,.desert-subheading{
+  color: #fff;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+.btn-transparent{
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 1px solid #fff;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+}
+.btn-transparent:hover{
+  background-color: #000;
+  transition: all 2s;
+}
+.subheading-dining{
+  font-family: 'Lobster', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000;
+}
+.heading{
+  color: #f08c00;
+  font-size: 2rem;
+}
+.description{
+  text-align: center;
+  line-height: 2;
+}
+/* Image containers */
+.img-box{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dining-img{
+  width: 100%;
+}
+.imgbox{
+  display: flex;
+  justify-content: flex-start;
 }
