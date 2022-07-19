@@ -132,7 +132,7 @@
   line-height: 2;
 }
 /* Image containers */
-.img-box{
+.img-box,.imgbox{
   display: flex;
   justify-content: flex-end;
 }
@@ -140,7 +140,53 @@
 .dining-img{
   width: 100%;
 }
-.imgbox{
-  display: flex;
-  justify-content: flex-start;
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+@media only screen and (max-width: 768px) {
+  .main-heading{
+    text-align: center;
+  }
+  .dflex{
+    margin-top: 1rem;
+  }
+  .meal-heading,.desert-heading {
+    font-size: 2rem;
+  }
+  .description {
+    font-size: 0.8rem;
+}
+}
+@media only screen and (max-width: 425px){
+  .main-heading {
+    font-size: 3rem;
+}
+.subheading{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 4rem;
+
+}
+.meal-heading, .desert-heading {
+  font-size: 1.8rem;
+}
+.subheading-dining{
+  font-size: 1rem;
+}
+}
+@media only screen and (max-width: 375px){
+  .subheading{
+    font-size: 1.3rem;
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 320px){
+  .subheading{
+    font-size: 1.3rem;
+    margin-left: 3rem;
+  }
 }

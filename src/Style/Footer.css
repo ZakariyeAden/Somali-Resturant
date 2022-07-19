@@ -1,32 +1,68 @@
-.grid3{
+.grid3 {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
-.container{
+.container {
   display: flex;
   justify-content: center;
   gap: 5rem;
 }
-footer{
+footer {
   padding: 8rem 0 3rem;
   background-color: #f08c00;
   -webkit-box-shadow: 0px -4px 3px rgba(17, 12, 46, 0.15);
   -moz-box-shadow: 0px -4px 3px rgba(17, 12, 46, 0.15);
   box-shadow: 0px -4px 3px rgba(17, 12, 46, 0.15);
 }
-footer h3{
+footer h3 {
   color: #000;
   font-size: 1.4rem;
 }
-.company{
+.company {
   text-align: center;
   margin-top: 4rem;
 }
-.address{
+.address {
   font-style: italic;
 }
-.contact a{
+.telephone {
   border-bottom: 1px solid #000;
   color: #000;
+}
 
+@media only screen and (max-width: 768px) {
+  h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .telephone {
+    margin-top: 1rem;
+  }
+  .tel-heading {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  footer h3 {
+    font-size: 1.2rem;
+  }
+  .address {
+    font-size: 0.8rem;
+  }
+  .hours p {
+    font-size: 0.8rem;
+}
+.telephone {
+  font-size: 0.8rem;
+}
 }

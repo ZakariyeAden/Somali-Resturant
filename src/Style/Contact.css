@@ -54,3 +54,22 @@ button{
 .error{
   color: #e03131;
 }
+@media only screen and (max-width: 425px) {
+  .menu-heading{
+    font-size: 2rem;
+  }
+  .contact-heading {
+    font-size: 1.8rem;
+  }
+  .contact-description {
+    font-size: 1rem;
+}
+.img- {
+  width: 75%;
+}
+}
+@media only screen and (max-width: 320px) {
+  .menu-heading {
+    font-size: 1.5rem;
+}
+}

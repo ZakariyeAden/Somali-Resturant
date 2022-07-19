@@ -32,13 +32,15 @@ a{
   .links{
     display: none;
   }
+
   .nav-links-mobile{
     position: absolute;
     display: block;
     color: #fff;
     background-color: #fff;
     left: 0;
-    top: 75px;
+    top: 49px;
+    z-index: 1;
     transition: all 0.5s ease-out;
     width: 100%;
   }
@@ -53,6 +55,7 @@ a{
     top: 15px;
     right: 25px;
   }
+
   .home,
   .menu,
   .about,
@@ -68,9 +71,17 @@ a{
   .mobile-menu-icon{
     display: block;
     position: absolute;
-    font-size: 32px;
+    top: -4px;
   }
   .navbar{
     padding: 2rem;
   }
+}
+@media screen and (max-width:425px){
+  .logo{
+    width: 10%;
+  }
+  .logo {
+    left: 40%;
+}
 }
