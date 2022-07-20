@@ -7,7 +7,7 @@ const DesertSelection = (props) => {
     <div style={props.style}>
      <h3 className="text-align menu-option">Desert</h3>
        <Container>
-        <Row className="grid2">
+        <Row className="grid2 mt-2">
           <Col>
           <div className="menu-item">
           <h5 className="menu-selection">

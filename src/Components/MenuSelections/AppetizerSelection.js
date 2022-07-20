@@ -3,11 +3,12 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 const AppetizerSelection = (props) => {
+  
   return (
     <div style={props.style}>
         <h3 className="text-align menu-option">Appetizers</h3>
       <Container>
-        <Row className="grid2">
+        <Row className="grid2 mt-2">
           <Col>
           <div className="menu-item">
           <h5 className="menu-selection">

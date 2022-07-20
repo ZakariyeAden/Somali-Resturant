@@ -6,10 +6,10 @@ const PlateSelection = (props) => {
 
   return (
     <div style={props.style}>
-        <h3 className="text-align menu-option">Main Plate</h3>
-        <p className="text-align menu-subheading">All plates come with choice of rice or french fries, pita, salad and sauce.</p>
+        <h3 className="text-align menu-option mt-2">Main Plate</h3>
+        <p className="text-align menu-subheading mt-2">All plates come with choice of rice or french fries, pita, salad and sauce.</p>
        <Container>
-        <Row className="grid2">
+        <Row className="grid2 mt-2">
           <Col>
           <div className="menu-item">
           <h5 className="menu-selection">
