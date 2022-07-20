@@ -16,7 +16,7 @@ function About() {
     <section>
       <Parallax bgImage={Meal}>
         <div style={{ height: 500 }}>
-          <div style={insideStyles} className="about-us">
+          <div style={insideStyles} className="about-us  ">
             About <br />
             <span className="company-name">Somali and Gyro Resturant</span>
           </div>
