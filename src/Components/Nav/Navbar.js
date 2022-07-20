@@ -1,20 +1,36 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from '../../Assets/Logo.png'
 import "../../Style/Navbar.css";
+
 function Navbar() {
   const [isMobile, setIsMobile] = useState(false);
+  // Assigning Location
+  const location = useLocation();
+  
+  const { pathname } = location
+
+  const splitLocation = pathname.split("/");
   return (
     <header>
       <nav className="navbar">
-        <div className="align">
+        <div>
           <img src={logo} className="logo"/>
         </div>
         <ul className={isMobile ? "nav-links-mobile" : "links"} onClick={() => setIsMobile(false)}>
-          <Link to="/" className="home">Home</Link>
-          <Link to="/about" className="about">About</Link>
-          <Link to="/menu" className="menu">Menu</Link>
-          <Link to="/contact" className="contact">Contact</Link>
+        <li className={splitLocation[1] === "" ? "active" : ""}>
+          <NavLink to="/"  className="home">Home</NavLink>
+          </li>
+          <li className={splitLocation[1] === "about" ? "active" : ""}>
+          <NavLink to="/about"  className="about">About</NavLink>
+          </li>
+          <li className={splitLocation[1] === "menu" ? "active" : ""}>
+          <NavLink to="/menu"  className="menu">Menu</NavLink>
+          </li>
+          <li className={splitLocation[1] === "contact" ? "active" : ""}>
+          <NavLink to="/contact"  className="contact">Contact</NavLink>
+          </li>
         </ul>
         <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>
           {isMobile ? (
