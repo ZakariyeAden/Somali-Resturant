@@ -9,12 +9,17 @@
   justify-content: flex-end;
   gap: 2rem;
   font-size: 1.5rem;
-  width: 75%;
-  
+  width: 75%; 
+}
+li{
+  list-style: none;
 }
 a{
   text-decoration: none;
   color: #f59f00;
+}
+.active{
+  color: #e67700;
 }
 .logo{
   width: 15%;
@@ -22,13 +27,17 @@ a{
 .mobile-menu-icon{
   display: none;
 }
-@media screen and (max-width:780px) {
-  .logo{
+@media screen and (max-width:768px) {
+  .logo {
     display: flex;
     position: absolute;
-    top: 15px;
+    top: -2px;
     left: 35px;
-  }
+}
+.logo {
+    width: 8%;
+}
+  
   .links{
     display: none;
   }
@@ -65,9 +74,10 @@ a{
     text-align: center;
     padding: 32px;
     font-size: 2rem;
-    width: 100%;
+    width: 77%;
     transition: all 0.5s ease;
   }
+
   .mobile-menu-icon{
     display: block;
     position: absolute;
@@ -78,10 +88,20 @@ a{
   }
 }
 @media screen and (max-width:425px){
-  .logo{
-    width: 10%;
-  }
+  .logo {
+    width: 14%;
+}
   .logo {
     left: 40%;
+}
+}
+@media screen and (max-width:375px){
+  .logo {
+    width: 16%;
+}
+}
+@media screen and (max-width:375px){
+  .logo {
+    width: 18%;
 }
 }
