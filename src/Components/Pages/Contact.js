@@ -21,7 +21,7 @@ function Contact() {
     <div>
         <Parallax bgImage={Dining}>
         <div style={{ height: 500 }}>
-          <div style={insideStyles} className="heading-primary">
+          <div style={insideStyles} className="heading-primary animate__animated ">
             Contact Us
           </div>
         </div>
