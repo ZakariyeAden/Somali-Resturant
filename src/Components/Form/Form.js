@@ -1,21 +1,28 @@
-import React from "react";
+import React,{ useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useForm } from "react-hook-form";
-
 const FormPage = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
-  const onSubmit = data => {
+  const [message, setMessage] = useState('');
+  const onSubmit = (data, e) => {
+    
+    e.preventDefault();
     console.log(data);
+    setMessage(`Thank You ${data.firstName} we will Contact you Soon!`)
+    reset();
   };
+  const CustomMessage = message
   return (
     <div>
       <form onSubmit={handleSubmit(onSubmit)}> 
         <Form.Group className="mb-3 flex-col">
+        {message}
           <Form.Label>First Name</Form.Label>
           <Form.Control
             type="text"
