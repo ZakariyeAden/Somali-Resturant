@@ -26,6 +26,9 @@
 .row{
   margin: 0 auto;
 }
+.mt-2{
+  margin-top: 2rem;
+}
 .price{
   margin-left: 2rem;
   font-style: italic;
