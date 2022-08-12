@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer'
 import { Routes, Route } from "react-router-dom";
 const MainComponent = lazy(() => import("./Components/Component"));
 
-function App(props) {
+function App() {
   return (
     <div>
       <Suspense fallback={<p>Loading...</p>}>

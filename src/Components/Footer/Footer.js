@@ -1,10 +1,6 @@
 import React from "react";
 import '../../Style/Footer.css'
-const data = [
-  {id:1, heading: "address:",location: "Saint Louis Park MN" },
-  {id:2, tel: "Tel:",phone: 6122222222 },
-  {id:3, hours: "hours:",phone: 6122222222 },
-];
+
 function Footer() {
   return (
     <footer>
